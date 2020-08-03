@@ -89,6 +89,20 @@ p {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.projects .card:hover {
+  border-radius: 5px;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 0.20s;
+          animation-duration: 0.20s;
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .contact {
