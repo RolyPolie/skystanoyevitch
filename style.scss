@@ -84,52 +84,6 @@ p {
     .title-projects {
         font-family: 'Righteous', cursive;
     }
-
-    .img_1 {
-        padding: 15%;
-        margin: 10px;
-        border: 3px solid black;
-        border-radius: 15px;
-        background-image: url("images/unsplash_code.jpg");
-        background-size: cover;
-        filter: blur(4px);
-    }
-
-    .img_2 {
-        padding: 15%;
-        margin: 10px;
-        border: 3px solid black;
-        border-radius: 15px;
-        background-image: url("images/unsplash_kb.jpg");
-        background-size: cover;
-        filter: blur(4px);
-    }
-
-    .img_3 {
-        padding: 15%;
-        margin: 10px;
-        border: 3px solid black;
-        border-radius: 15px;
-        background-image: url("images/unsplash_mac.jpg");
-        background-size: cover;
-        filter: blur(4px);
-    }
-
-    .subtitle_pwa {
-        color: white;
-        text-align: center;
-        font-size: 2em;
-    }
-
-    .coming_soon {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 100px;
-        color: white;
-        text-align: center;
-        position: absolute;
-        padding: 100px;
-        z-index: 2;
-    }
 }
 
 .contact {
