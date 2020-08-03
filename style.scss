@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.main-content {
+    background-image: url("images/unsplash-main.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .navbar-item {
+        &:hover {
+            background-color: inherit;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-family: 'Permanent Marker', cursive;
+        }
+    }
+}
+
+.subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-hero {
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title-hero {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.main {
+    background-color: cadetblue;
+}
+
+.about-me {
+    color: black;
+    padding: 140px;
+    font-family: 'Righteous', cursive;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-about-me {
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-me-img {
+    border-radius: 8px;
+    box-shadow: 5px 5px 13px black;
+}
+
+.skills {
+    color: black;
+    padding: 140px;
+
+    .title-skills {
+        font-family: 'Sigmar One', cursive;
+    }
+
+    ._icon {
+        color: black;
+    }
+
+    .title-icon {
+        font-size: 1.3em;
+        font-family: 'Sigmar One', cursive;
+    }
+}
+
+.projects {
+    color: black;
+    padding: 140px;
+
+    .title-projects {
+        font-family: 'Righteous', cursive;
+    }
+
+    .img_1 {
+        padding: 15%;
+        margin: 10px;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-image: url("images/unsplash_code.jpg");
+        background-size: cover;
+        filter: blur(4px);
+    }
+
+    .img_2 {
+        padding: 15%;
+        margin: 10px;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-image: url("images/unsplash_kb.jpg");
+        background-size: cover;
+        filter: blur(4px);
+    }
+
+    .img_3 {
+        padding: 15%;
+        margin: 10px;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-image: url("images/unsplash_mac.jpg");
+        background-size: cover;
+        filter: blur(4px);
+    }
+
+    .subtitle_pwa {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .coming_soon {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        padding: 100px;
+        z-index: 2;
+    }
+}
+
+.contact {
+    color: black;
+    padding: 140px;
+}

@@ -1,137 +1,141 @@
-
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-
 
 .main-content {
-    background-image: url("images/unsplash-main.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(2px); */
-}
-.main-content .navbar-item:hover{
-    background-color: inherit;
-    text-decoration: none;
-    font-size: 1.3em;
-    font-family: 'Permanent Marker', cursive;
-    
+  background-image: url("images/unsplash-main.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.main-content .navbar-item:hover {
+  background-color: inherit;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: 'Permanent Marker', cursive;
+}
 
-.subtitle{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.subtitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-hero {
-    z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.title-hero{
-font-family: 'Permanent Marker', cursive;
 
+.title-hero {
+  font-family: 'Permanent Marker', cursive;
 }
-.main{
-    background-color: cadetblue;
+
+.main {
+  background-color: cadetblue;
 }
 
 .about-me {
-    color: black;
-    padding: 140px;
+  color: black;
+  padding: 140px;
+  font-family: 'Righteous', cursive;
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.about-me, .title-about-me{
-    font-family: 'Righteous', cursive;
+
+.title-about-me {
+  font-family: 'Righteous', cursive;
 }
-.about-me, p{
-    font-size: 1.3em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+p {
+  font-size: 1.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.about-me-img{
-    border-radius: 8px;
-    box-shadow: 5px 5px 13px black;
+
+.about-me-img {
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 13px black;
+          box-shadow: 5px 5px 13px black;
 }
+
 .skills {
-    color: black;
-    padding: 140px;
-
-}
-.skills .title-skills{
-    font-family: 'Sigmar One', cursive;
+  color: black;
+  padding: 140px;
 }
 
-.skills ._icon{
-    color: black;
+.skills .title-skills {
+  font-family: 'Sigmar One', cursive;
 }
 
-.skills .title-icon{
-    font-size: 1.3em;
-    font-family:'Sigmar One', cursive;
+.skills ._icon {
+  color: black;
+}
+
+.skills .title-icon {
+  font-size: 1.3em;
+  font-family: 'Sigmar One', cursive;
 }
 
 .projects {
-    color: black;
-    padding: 140px;
-
-}
-.projects .title-projects{
-    font-family: 'Righteous', cursive;
+  color: black;
+  padding: 140px;
 }
 
-.projects .img_1{
-    padding: 15%;
-    margin: 10px;
-    border: 3px solid black;
-    border-radius: 15px;
-    background-image: url("images/unsplash_code.jpg");
-    background-size: cover;
-    filter: blur(4px);
-}
-.projects .img_2{
-    padding: 15%;
-    margin: 10px;
-    border: 3px solid black;
-    border-radius: 15px;
-    background-image: url("images/unsplash_kb.jpg");
-    background-size: cover;
-    filter: blur(4px);
-}
-.projects .img_3{
-    padding: 15%;
-    margin: 10px;
-    border: 3px solid black;
-    border-radius: 15px;
-    background-image: url("images/unsplash_mac.jpg");
-    background-size: cover;
-    filter: blur(4px);
+.projects .title-projects {
+  font-family: 'Righteous', cursive;
 }
 
-.projects .subtitle_pwa{
-    color: white;
-    text-align: center;
-    font-size: 2em;
+.projects .img_1 {
+  padding: 15%;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-image: url("images/unsplash_code.jpg");
+  background-size: cover;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
 }
 
-.projects .coming_soon{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    padding: 100px;
-    z-index: 2;
+.projects .img_2 {
+  padding: 15%;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-image: url("images/unsplash_kb.jpg");
+  background-size: cover;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
 }
 
+.projects .img_3 {
+  padding: 15%;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-image: url("images/unsplash_mac.jpg");
+  background-size: cover;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.projects .subtitle_pwa {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.projects .coming_soon {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  padding: 100px;
+  z-index: 2;
+}
 
 .contact {
-    color: black;
-    padding: 140px;
-
+  color: black;
+  padding: 140px;
 }
+/*# sourceMappingURL=style.css.map */
