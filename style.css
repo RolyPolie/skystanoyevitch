@@ -33,6 +33,11 @@ html {
   background-color: cadetblue;
 }
 
+.modal-content {
+  background-color: white;
+  border-radius: 10px;
+}
+
 .about-me {
   color: black;
   font-family: 'Righteous', cursive;
