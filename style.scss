@@ -25,17 +25,18 @@ html {
             font-family: 'Permanent Marker', cursive;
         }
     }
+
+    .navbar-link .is-active{
+        background-color: transparent;
+    }
 }
+
 
 .subtitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.main-hero {
-    z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .title-hero {
     font-family: 'Permanent Marker', cursive;
@@ -47,7 +48,6 @@ html {
 
 .about-me {
     color: black;
-    padding: 140px;
     font-family: 'Righteous', cursive;
     font-size: 1.3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -67,32 +67,33 @@ p {
     box-shadow: 5px 5px 13px black;
 }
 
-.skills {
-    color: black;
-    padding: 140px;
+// .skills {
+//     color: black;
+//     padding: 140px;
 
-    .title-skills {
-        font-family: 'Sigmar One', cursive;
-    }
+//     .title-skills {
+//         font-family: 'Sigmar One', cursive;
+//     }
 
-    ._icon {
-        color: black;
-    }
+//     ._icon {
+//         color: black;
+//     }
 
-    .title-icon {
-        font-size: 1.3em;
-        font-family: 'Sigmar One', cursive;
-    }
-}
+//     .title-icon {
+//         font-size: 1.3em;
+//         font-family: 'Sigmar One', cursive;
+//     }
+// }
 
 .projects {
     color: black;
-    padding: 140px;
+    // padding: 140px;
 
     .title-projects {
         font-family: 'Righteous', cursive;
     }
         .card{
+            border-radius: 5px;
             background-color: transparent;
             box-shadow: none;
             transition: all 0.3s cubic-bezier(.25,.8,.25,1);
