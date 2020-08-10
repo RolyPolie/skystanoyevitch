@@ -73,24 +73,6 @@ p {
     box-shadow: 5px 5px 13px black;
 }
 
-// .skills {
-//     color: black;
-//     padding: 140px;
-
-//     .title-skills {
-//         font-family: 'Sigmar One', cursive;
-//     }
-
-//     ._icon {
-//         color: black;
-//     }
-
-//     .title-icon {
-//         font-size: 1.3em;
-//         font-family: 'Sigmar One', cursive;
-//     }
-// }
-
 .projects {
     color: black;
     // padding: 140px;
@@ -116,7 +98,9 @@ p {
     
 }
 
-.contact {
+.footer {
     color: black;
-    padding: 140px;
+    .icon{
+    margin: 10px;
+    }
 }
