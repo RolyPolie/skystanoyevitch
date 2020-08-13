@@ -17,20 +17,20 @@ $(document).ready(function() {
             // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
             $(".navbar-burger").toggleClass("is-active");
             $(".navbar-menu").toggleClass("is-active");
-            // $('.navbar-dropdown').hide();
+            $('.navbar-dropdown').toggleClass('is-hidden-mobile')
 
 
 
-            $('.has-dropdown').click(function(){
-                $('.navbar-dropdown').removeClass('is-hidden-mobile')
-                $('.navbar-dropdown').toggleClass('is-active')
-
-            })
+            // $('.has-dropdown').click(function(){
+            //     $('.navbar-dropdown').removeClass('is-hidden-mobile')
+            //     $('.navbar-dropdown').toggleClass('is-active')
+            // })
     
         });
 
         $('.has-dropdown').click(function(){
-            $('.has-dropdown').toggleClass('is-active');
+            $('.navbar-dropdown').removeClass('is-hidden-mobile')
+            // $('.has-dropdown').toggleClass('is-active');
         })
 
         
