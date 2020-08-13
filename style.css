@@ -1,13 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Cinzel+Decorative:wght@400;700;900&family=Major+Mono+Display&family=Merienda:wght@400;700&family=Permanent+Marker&family=Righteous&family=Lalezar&family=Sigmar+One&family=Kalam:wght@700&family=Merienda:wght@400;700&family=Kaushan+Script&family=Julee&family=Open+Sans&display=swap");
 html {
   scroll-behavior: smooth;
 }
 
 .main-content {
-  background-image: url("images/unsplash-main.jpg");
+  background-image: url("./images/unsplash-main.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main-content .navbar-item {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main-content .navbar-item:hover {
@@ -15,7 +20,8 @@ html {
   font-size: 1.3em;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 600;
 }
 
 .main-content .navbar-link .is-active {
@@ -23,11 +29,13 @@ html {
 }
 
 .subtitle {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
 }
 
 .title-hero {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
 }
 
 .main {
@@ -41,18 +49,21 @@ html {
 
 .about-me {
   color: black;
-  font-family: 'Righteous', cursive;
   font-size: 1.3em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title-about-me {
-  font-family: 'Righteous', cursive;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.sub-goals {
+  font-family: 'Kaushan Script', cursive;
 }
 
 p {
   font-size: 1.3em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about-me-img {
@@ -66,7 +77,7 @@ p {
 }
 
 .projects .title-projects {
-  font-family: 'Righteous', cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .projects .card {
