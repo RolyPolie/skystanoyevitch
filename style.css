@@ -18,8 +18,8 @@ html {
 .main-content .navbar-item:hover {
   background-color: inherit;
   font-size: 1.3em;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   font-family: 'Kaushan Script', cursive;
   font-weight: 600;
 }
