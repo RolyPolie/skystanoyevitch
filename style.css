@@ -91,6 +91,11 @@ p {
   border-radius: 10px;
 }
 
+.projects .card .projectTwo:hover {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
 .projects .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
