@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Cinzel+Decorative:wght@400;700;900&family=Major+Mono+Display&family=Merienda:wght@400;700&family=Permanent+Marker&family=Righteous&family=Lalezar&family=Sigmar+One&family=Kalam:wght@700&family=Merienda:wght@400;700&family=Kaushan+Script&family=Julee&family=Open+Sans&display=swap");
-html {
+html[theme='dark-mode'] {
   scroll-behavior: smooth;
 }
 
